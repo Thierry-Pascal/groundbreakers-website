@@ -356,36 +356,71 @@ a {
     and (device-width: 375px) 
     and (device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3) {
-        .navbar {
+
+        .grid-4,
+    .main .grid,
+    .about-main .grid,
+    .mission .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgC img {
+        padding-top: 20px;
+    }
+
+    .imgM img {
+        padding-top: 20px;
+    }
+
+    .main {
+        margin-top: 10px;
+        height: auto;
+    }
+
+    .text, .about-main {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul {
+        font-size: 12px;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .navbar {
             height: 110px;
             background-color: #FFF;
         }
     
-        .navbar .flex {
+    .navbar .flex {
             flex-direction: column;
         }
     
-        .navbar ul {
+    .navbar ul {
             padding: 20px;
             background-color: rgba(4, 122, 137, 0.7);
         }
     
-        .navbar h1 {
+    .navbar h1 {
             color: #000;
         }
     
-        .imgC img {
+    .imgC img {
             max-width: 300px;
             max-height: 300px;   
             border-radius: 50%;  
         }
     
-        .imgM img {
+    .imgM img {
             max-width: 200px;
             max-height: 200px;     
         }
     
-        .footer .social a {
+    .footer .social a {
             padding: 5px;
         }
     }
@@ -394,36 +429,71 @@ a {
     and (device-width: 390px) 
     and (device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) {
-        .navbar {
+
+        .grid-4,
+    .main .grid,
+    .about-main .grid,
+    .mission .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgC img {
+        padding-top: 20px;
+    }
+
+    .imgM img {
+        padding-top: 20px;
+    }
+
+    .main {
+        margin-top: 10px;
+        height: auto;
+    }
+
+    .text, .about-main {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul {
+        font-size: 12px;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .navbar {
             height: 110px;
             background-color: #FFF;
         }
     
-        .navbar .flex {
+    .navbar .flex {
             flex-direction: column;
         }
     
-        .navbar ul {
+    .navbar ul {
             padding: 20px;
             background-color: rgba(4, 122, 137, 0.7);
         }
     
-        .navbar h1 {
+    .navbar h1 {
             color: #000;
         }
     
-        .imgC img {
+    .imgC img {
             max-width: 300px;
             max-height: 300px;   
             border-radius: 50%;  
         }
     
-        .imgM img {
+    .imgM img {
             max-width: 200px;
             max-height: 200px;     
         }
     
-        .footer .social a {
+    .footer .social a {
             padding: 5px;
         }
     }
@@ -432,36 +502,71 @@ a {
     and (device-width: 428px) 
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
-        .navbar {
+
+        .grid-4,
+    .main .grid,
+    .about-main .grid,
+    .mission .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgC img {
+        padding-top: 20px;
+    }
+
+    .imgM img {
+        padding-top: 20px;
+    }
+
+    .main {
+        margin-top: 10px;
+        height: auto;
+    }
+
+    .text, .about-main {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul {
+        font-size: 12px;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .navbar {
             height: 110px;
             background-color: #FFF;
         }
     
-        .navbar .flex {
+    .navbar .flex {
             flex-direction: column;
         }
     
-        .navbar ul {
+    .navbar ul {
             padding: 20px;
             background-color: rgba(4, 122, 137, 0.7);
         }
     
-        .navbar h1 {
+    .navbar h1 {
             color: #000;
         }
     
-        .imgC img {
+    .imgC img {
             max-width: 300px;
             max-height: 300px;   
             border-radius: 50%;  
         }
     
-        .imgM img {
+    .imgM img {
             max-width: 200px;
             max-height: 200px;     
         }
     
-        .footer .social a {
+    .footer .social a {
             padding: 5px;
         }
     }
