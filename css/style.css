@@ -280,7 +280,7 @@ a {
     }
 }
 
-@media(max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .grid-4,
     .main .grid,
     .about-main .grid,
@@ -316,7 +316,7 @@ a {
     }
 }
 
-@media(max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .navbar {
         height: 110px;
         background-color: #FFF;
@@ -350,3 +350,118 @@ a {
         padding: 5px;
     }
 }
+
+/* Iphone 13 mini */
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .navbar {
+            height: 110px;
+            background-color: #FFF;
+        }
+    
+        .navbar .flex {
+            flex-direction: column;
+        }
+    
+        .navbar ul {
+            padding: 20px;
+            background-color: rgba(4, 122, 137, 0.7);
+        }
+    
+        .navbar h1 {
+            color: #000;
+        }
+    
+        .imgC img {
+            max-width: 300px;
+            max-height: 300px;   
+            border-radius: 50%;  
+        }
+    
+        .imgM img {
+            max-width: 200px;
+            max-height: 200px;     
+        }
+    
+        .footer .social a {
+            padding: 5px;
+        }
+    }
+/* Iphone 13 */
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .navbar {
+            height: 110px;
+            background-color: #FFF;
+        }
+    
+        .navbar .flex {
+            flex-direction: column;
+        }
+    
+        .navbar ul {
+            padding: 20px;
+            background-color: rgba(4, 122, 137, 0.7);
+        }
+    
+        .navbar h1 {
+            color: #000;
+        }
+    
+        .imgC img {
+            max-width: 300px;
+            max-height: 300px;   
+            border-radius: 50%;  
+        }
+    
+        .imgM img {
+            max-width: 200px;
+            max-height: 200px;     
+        }
+    
+        .footer .social a {
+            padding: 5px;
+        }
+    }
+/* Iphone 13 Pro max */
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .navbar {
+            height: 110px;
+            background-color: #FFF;
+        }
+    
+        .navbar .flex {
+            flex-direction: column;
+        }
+    
+        .navbar ul {
+            padding: 20px;
+            background-color: rgba(4, 122, 137, 0.7);
+        }
+    
+        .navbar h1 {
+            color: #000;
+        }
+    
+        .imgC img {
+            max-width: 300px;
+            max-height: 300px;   
+            border-radius: 50%;  
+        }
+    
+        .imgM img {
+            max-width: 200px;
+            max-height: 200px;     
+        }
+    
+        .footer .social a {
+            padding: 5px;
+        }
+    }
