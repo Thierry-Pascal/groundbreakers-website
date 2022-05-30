@@ -289,21 +289,33 @@ a {
         flex-direction: column;
     }
 
+    .main {
+        margin-top: 10px;
+    }
+
     .mission {
         background-color: rgba(4, 122, 137, 0.7);
     }
 
     .imgC img {
         padding-top: 20px;
+        margin-left: 0px; 
+    }
+
+    .imgC {
+        align-content: center;
+        justify-content: center;
     }
 
     .imgM img {
         padding-top: 20px;
     }
 
-    .main {
+    .main .container .imgC{
         margin-top: 10px;
         height: auto;
+        align-content: center;
+        justify-content: center;
     }
 
     .text, .about-main {
