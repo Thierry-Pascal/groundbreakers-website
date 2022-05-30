@@ -308,7 +308,7 @@ a {
     }
 
     nav ul {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .navbar h1 {
@@ -316,7 +316,8 @@ a {
     }
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 500px) {
     .navbar {
         height: 110px;
         background-color: #FFF;
@@ -327,7 +328,7 @@ a {
     }
 
     .navbar ul {
-        padding: 20px;
+        padding: 10px;
         background-color: rgba(4, 122, 137, 0.7);
     }
 
@@ -351,7 +352,7 @@ a {
     }
 }
 
-/* Iphone 13 mini */
+/* Iphone 13 mini 
 @media only screen 
     and (device-width: 375px) 
     and (device-height: 812px) 
@@ -424,7 +425,7 @@ a {
             padding: 5px;
         }
     }
-/* Iphone 13 */
+/* Iphone 13 
 @media only screen 
     and (device-width: 390px) 
     and (device-height: 844px) 
@@ -497,7 +498,7 @@ a {
             padding: 5px;
         }
     }
-/* Iphone 13 Pro max */
+/* Iphone 13 Pro max 
 @media only screen 
     and (device-width: 428px) 
     and (device-height: 926px) 
@@ -569,4 +570,4 @@ a {
     .footer .social a {
             padding: 5px;
         }
-    }
+    } */
