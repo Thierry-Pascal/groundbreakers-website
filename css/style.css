@@ -289,6 +289,10 @@ a {
         flex-direction: column;
     }
 
+    .mission {
+        background-color: rgba(4, 122, 137, 0.7);
+    }
+
     .imgC img {
         padding-top: 20px;
     }
